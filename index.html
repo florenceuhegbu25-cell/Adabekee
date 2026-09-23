@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adabekee | Wellness Products</title>
+<style>
+:root {
+  --navy:#071426; --navy2:#0d203b; --gold:#d9a83e; --cream:#f7f1e3;
+  --text:#172033; --muted:#657083; --white:#fff;
+}
+* { box-sizing:border-box; }
+body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--text); background:#f5f6f8; }
+header { background:linear-gradient(135deg,var(--navy),#142d50); color:#fff; padding:18px 6%; position:sticky; top:0; z-index:10; border-bottom:1px solid rgba(217,168,62,.5); }
+.nav { display:flex; align-items:center; justify-content:space-between; gap:20px; max-width:1200px; margin:auto; }
+.logo { font-size:28px; font-weight:800; letter-spacing:2px; color:#f1c75b; }
+nav a { color:#fff; text-decoration:none; margin-left:22px; font-weight:600; }
+.hero { background:radial-gradient(circle at 80% 20%,rgba(217,168,62,.22),transparent 35%), linear-gradient(135deg,#061322,#112b4c); color:#fff; padding:90px 6%; }
+.hero-inner { max-width:1200px; margin:auto; }
+.hero h1 { font-size:clamp(42px,7vw,78px); margin:0 0 14px; letter-spacing:1px; }
+.hero p { max-width:680px; font-size:19px; line-height:1.7; color:#e9edf5; }
+.badge { display:inline-block; border:1px solid var(--gold); color:#f3c75b; padding:8px 14px; border-radius:999px; margin-bottom:18px; }
+section { max-width:1200px; margin:auto; padding:60px 6%; }
+.section-title { text-align:center; margin-bottom:32px; }
+.section-title h2 { font-size:36px; margin:0 0 8px; }
+.section-title p { color:var(--muted); }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; }
+.card { background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,.08); border:1px solid #e8eaf0; }
+.card img { width:100%; aspect-ratio:4/5; object-fit:cover; display:block; background:#eee; }
+.card-body { padding:20px; }
+.card h3 { margin:0 0 10px; font-size:20px; }
+.price { font-size:24px; font-weight:800; color:#9a6b0b; margin:8px 0; }
+.note { color:var(--muted); line-height:1.5; font-size:13px; }
+.info { background:var(--navy); color:#fff; border-radius:24px; padding:35px; }
+.info h2 { margin-top:0; color:#f1c75b; }
+.info p { line-height:1.7; color:#e8edf5; }
+footer { background:#050d18; color:#b9c2d0; text-align:center; padding:30px 6%; }
+.disclaimer { font-size:13px; color:#d6dbe4; }
+@media(max-width:700px) {
+  nav { display:none; }
+  .hero { padding:65px 6%; }
+  section { padding:45px 6%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">ADABEKEE</div>
+    <nav><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="badge">WELLNESS PRODUCT CATALOGUE</span>
+    <h1>Adabekee</h1>
+    <p>Explore our wellness products and health-related devices in one convenient catalogue. Product information and prices are displayed for reference.</p>
+  </div>
+</section>
+
+<section id="products">
+  <div class="section-title">
+    <h2>Our Products</h2>
+    <p>Browse the current products and prices supplied for this catalogue.</p>
+  </div>
+  <div class="grid">
+    
+      <article class="card">
+        <img src="images/taikonaut-oral-liquid.jpg" alt="Taikonaut Oral Liquid">
+        <div class="card-body">
+          <h3>Taikonaut Oral Liquid</h3>
+          <p class="price">₦101,400</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/flexi-boost.jpg" alt="Flexi Boost Tablets">
+        <div class="card-body">
+          <h3>Flexi Boost Tablets</h3>
+          <p class="price">₦101,400</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/cholest-ofe.jpg" alt="Cholest Ofe Tablets">
+        <div class="card-body">
+          <h3>Cholest Ofe Tablets</h3>
+          <p class="price">₦101,400</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/coq10-capsules.jpg" alt="Advanced CoQ10 Capsules">
+        <div class="card-body">
+          <h3>Advanced CoQ10 Capsules</h3>
+          <p class="price">₦50,700</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/turmeric-ganoderma.jpg" alt="Turmeric & Ganoderma Extract Tablets">
+        <div class="card-body">
+          <h3>Turmeric & Ganoderma Extract Tablets</h3>
+          <p class="price">₦67,600</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/laser-therapy.jpg" alt="Semiconductor Laser Therapy">
+        <div class="card-body">
+          <h3>Semiconductor Laser Therapy</h3>
+          <p class="price">₦608,400</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+      <article class="card">
+        <img src="images/blood-pressure-monitor.jpg" alt="Electronic Blood Pressure Monitor">
+        <div class="card-body">
+          <h3>Electronic Blood Pressure Monitor</h3>
+          <p class="price">₦169,000</p>
+          <p class="note">Product information and pricing provided by Adabekee.</p>
+        </div>
+      </article>
+    
+  </div>
+</section>
+
+<section id="about">
+  <div class="info">
+    <h2>About Adabekee</h2>
+    <p>Adabekee provides a catalogue of wellness products and health-related devices. Product descriptions, ingredients, uses and suitability should always be checked against the official packaging and guidance from a qualified healthcare professional.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">
+    <h2>Contact Adabekee</h2>
+    <p>For general business and product-information enquiries:</p>
+    <p><strong>07035285271</strong></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© 2026 Adabekee. All rights reserved.</p>
+  <p class="disclaimer">This website is an informational catalogue and does not provide medical diagnosis or treatment advice. Do not rely on product claims as a substitute for advice from a qualified healthcare professional.</p>
+</footer>
+</body>
+</html>
